@@ -16,4 +16,13 @@ public class Addres {
     public String getStreet() { return street; }
 
     public int getHouseNumber() { return houseNumber; }
+
+    @Override
+    public String toString() {
+        return "Addres{" +
+                "city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", houseNumber=" + houseNumber +
+                '}';
+    }
 }

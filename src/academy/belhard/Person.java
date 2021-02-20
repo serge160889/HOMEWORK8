@@ -1,6 +1,6 @@
 package academy.belhard;
 
-public class Person {
+public class Person  {
     private String firstName;
     private String lastName;
     private Addres addres;
@@ -16,4 +16,14 @@ public class Person {
     public String getLastName() { return lastName; }
 
     public Addres getAddres() { return addres; }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", addres=" + addres +
+                '}';
+    }
 }
+
